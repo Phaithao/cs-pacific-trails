@@ -1,14 +1,18 @@
 ul{list-style-type: none;}
 ul { margin: 0; padding: 0;}
-nav li{float:left;margin-right: 10px;}
+nav li{display: inline-block;margin-right: 10px;}
 nav li:last-child{margin-right: 0px;}
 body{height:100%;width:auto;background: #FFF; background: -webkit-linear-gradient(#FFFFFF, #90C7E3); background: -o-linear-gradient(#FFFFFF, #90C7E3);background: -moz-linear-gradient(#FFFFFF, #90C7E3);background: linear-gradient(#FFFFFF, #90C7E3);}
 #wrapper{margin:0 auto;width:80%;min-width: 960px;max-width: 2048; box-shadow: 3px offset #333333; background-color: #FFFFFF;}
-header{background: url("../images/sunset.jpg") top no-repeat; height:60px;text-align: center;padding-top: 15px;}
+header { background: url("../images/sunset.jpg") top no-repeat; height: 60px; text-align: center; padding-top: 15px;
+width: 100%;
+background-size: 100% 100%;
+color: white;
+}
 h1{margin-top: 0;}
-nav{background-color: #FFFFFF;text-align: center;padding: 10px;}
+nav{background-color: #FFFFFF;height: 20px; text-align: center;padding: 10px;}
 main{padding-top: 1px; padding-right: 20px; padding-bottom: 20px; padding-left: 20px; display:block;}
-h2{text-shadow: 1px offset gray;}
+h2{color: #90C7E3;text-shadow: 1px offset gray;}
 footer{padding: 20px;}
 #homehero{height: 300px;background: url("../images/coasthero.jpg") top center no-repeat; background-size: 100%;}
 #trailhero{height: 300px;background: url("../images/trailhero.jpg") top center no-repeat; background-size: 100%;}
