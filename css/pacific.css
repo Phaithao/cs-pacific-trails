@@ -1,4 +1,4 @@
-a{text-decoration: none;background-color: #A6C6DF;}
+a{text-decoration: none;background-color: inherit;}
 nav li{display: inline;margin-right: 10px;}
 nav li:last-child{margin-right: 0px;}
 body{height:100%;width:auto;background: #FFF; background: -webkit-linear-gradient(#FFFFFF, #90C7E3); background: -o-linear-gradient(#FFFFFF, #90C7E3);background: -moz-linear-gradient(#FFFFFF, #90C7E3);background: linear-gradient(#FFFFFF, #90C7E3);}
