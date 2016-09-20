@@ -47,6 +47,14 @@ h1 {
     margin-top: 0;
 }
 
+h2 {
+    text-shadow: 1px 0px gray;
+}
+
+h3 {
+    color: #000000;
+}
+
 nav {
     background-color: #90c7E3;
     height: 20px;
@@ -69,10 +77,6 @@ main {
     display: block;
 }
 
-h2 {
-    text-shadow: 1px 0px gray;
-}
-
 footer {
     padding: 20px;
     margin: 0 auto;
@@ -81,46 +85,22 @@ footer {
     margin-bottom: 125px;
 }
 
-ul.list-styles {
-    list-style-image: url("../images/marker.gif");
-}
-
-.fl-right {
-    float: right;
-}
-
-.fl-left {
-    float: left;
-}
-
 #homehero {
-    height: 300px;
+    height: 250px;
     background: url("../images/coast.jpg") no-repeat;
 }
 
 #deckview {
-    height: 300px;
+    height: 250px;
     background: url("../images/deckview.jpg") no-repeat;
 }
 
 #trailhero {
-    height: 300px;
+    height: 250px;
     background: url("../images/trail.jpg") no-repeat;
 }
 
 #yurthero {
-    height: 300px;
+    height: 250px;
     background: url("../images/yurt.jpg") no-repeat;
-}
-
-address {
-    font-style: normal;
-}
-
-p {
-    background-color: inherit;
-}
-
-#p2 {
-    background-color: white;
 }
