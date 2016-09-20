@@ -16,10 +16,6 @@ body {
     height: 100%;
     width: auto;
     background: #FFF;
-    _background: -webkit-linear-gradient(#FFFFFF, #90C7E3);
-    _background: -o-linear-gradient(#FFFFFF, #90C7E3);
-    _background: -moz-linear-gradient(#FFFFFF, #90C7E3);
-    _background: linear-gradient(#FFFFFF, #90C7E3);
     background: url(../images/ptrbackground.jpg) repeat-x;
     color: #666666;
 }
