@@ -12,23 +12,17 @@ a:hover {
     color: #FFFFFF;
 }
 
-ul {
-    list-style: none;
-    margin: 0;
-    padding-left: 0;
-    font-size: 1.2em;
-}
-
 h1 {
     margin-top: 0;
 }
 
 h2 {
+    color: #3399CC;
     text-shadow: 1px 0px gray;
 }
 
 h3 {
-    color: #000000;
+    color: #344873;
 }
 
 body {
@@ -47,7 +41,7 @@ body {
 }
 
 header {
-    background: #000000 url("../images/sunset.jpg") top right no-repeat;
+    background: #344873 url("../images/sunset.jpg") top right no-repeat;
     height: 60px;
     text-align: center;
     padding-top: 15px;
@@ -65,11 +59,10 @@ nav {
 
 nav ul {
     margin: 0;
-    padding: 0;
-    list-style-type: none;
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.2em;
 }
-
-nav li {}
 
 main {
     background-color: #ffffff;
@@ -81,6 +74,18 @@ main {
     display: block;
 }
 
+main span {
+    color: #5C7FA3;
+}
+
+main div p {
+    font-size: 90%;
+}
+
+main ul li {
+    list-style-image: url(../images/marker.gif);
+}
+
 footer {
     padding: 20px;
     margin: 0 auto;
@@ -88,6 +93,8 @@ footer {
     margin-bottom: 125px;
     margin-left: 190px;
     background-color: white;
+    font-style: italic;
+    font-size: small;
 }
 
 #homehero {
