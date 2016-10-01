@@ -14,6 +14,7 @@ a:hover {
 
 h1 {
     margin-top: 0;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 h2 {
@@ -23,12 +24,14 @@ h2 {
 
 h3 {
     color: #344873;
+    font-family: Georgia, "Times New Roman", serif;
 }
 
 body {
     width: auto;
     background: linear-gradient(white, #4F6D93);
     color: #4F6D93;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #wrapper {
@@ -43,6 +46,8 @@ body {
 header {
     background: #344873 url("../images/sunset.jpg") top right no-repeat;
     height: 60px;
+    line-height: 400%;
+    text-indent: 1em;
     text-align: center;
     padding-top: 15px;
     width: 100%;
@@ -72,10 +77,12 @@ main {
     padding-bottom: 20px;
     padding-left: 30px;
     display: block;
+    
 }
 
 main span {
     color: #5C7FA3;
+    font-weight: bold;
 }
 
 main div p {
@@ -93,8 +100,9 @@ footer {
     margin-bottom: 125px;
     margin-left: 190px;
     background-color: white;
+    font-family: Georgia, "Times New Roman", serif;
     font-style: italic;
-    font-size: small;
+    font-size: 75%;
 }
 
 #homehero {
