@@ -4,11 +4,8 @@
 <head>
     <Title>Pacific Trails Resort</Title>
     <meta charset="Utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="css/pacific.css" />
     <link rel="icon" type="image/png" href="images/favicon.ico" />
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
-    </script>
 </head>
 
 <body>
@@ -42,8 +39,7 @@
                     <br> 12010 Pacific Trails Road
                     <br> Zephyr, CA 95555
                     <br>
-                    <br> <a id="mobile" href="tel:888-555-5555">888-555-5555</a>
-                    <br> <span id="desktop">888-555-5555</span>
+                    <br> 888-555-5555
                 </p>
             </div>
         </main>
