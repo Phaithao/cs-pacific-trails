@@ -67,7 +67,7 @@ header {
 }
 
 nav {
-    height: 20px;
+    height: auto;
     padding: 20px;
     font-weight: bold;
     float: left;
